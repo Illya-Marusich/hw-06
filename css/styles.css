@@ -574,6 +574,7 @@ background-color: var(--color-ocean);
     border-radius: 4px;
     background: #2E2F42;
     color: var(--color-cloud);
+    width: 264px;
     height: 40px;
     padding-left: 16px;
     padding-right: 16px;
@@ -598,6 +599,8 @@ background-color: var(--color-ocean);
 
 .footer-icon-airplane {
     position: absolute;
+
+    margin-left: 16px;
 
     fill: var(--color-white);
 
@@ -631,7 +634,7 @@ transition: opacity var(--trns-fast), visibility var(--trns-fast);
 
     width: 408px;
     min-height: 576px;
-    padding: 40px 24px;
+    padding: 72px 24px 24px 24px;
 
     background-color: var(--color-white);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -683,7 +686,6 @@ transition: opacity var(--trns-fast), visibility var(--trns-fast);
 
 .modal-title {
     display: block;
-    margin-top: 24px;
     margin-bottom: 34px;
     text-align: center;
 
@@ -700,6 +702,7 @@ transition: opacity var(--trns-fast), visibility var(--trns-fast);
     line-height: calc(14 / 12);
     letter-spacing: 0.04em;
 
+    margin-top: 8px;
     margin-bottom: 4px;
 }
 
@@ -769,16 +772,19 @@ color: rgba(117, 117, 117, 0.5);
 }
 
 .modal-form-agreement {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-
+    font-weight: 400;
+    font-size: 12px;
+    line-height: calc( 14 / 12 );
+    letter-spacing: 0.04em;
+    color: #757575;
     margin-bottom: 16px;
+
+    user-select: none;
 }
 
 .modal-agreement-group {
     display: flex;
+    align-items: center;
     position: relative;
     gap: 8px;
 }
@@ -795,6 +801,7 @@ color: rgba(117, 117, 117, 0.5);
     transition-duration: 400ms;
     transition-timing-function: var(--trns-fast);
     transition-delay: 0, 0, 200ms;
+    transform: translateY(-50%);
 
     
 }
