@@ -593,13 +593,12 @@ background-color: var(--color-ocean);
 }
 
 .subscribe-btn {
+    display: flex;
     font-weight: 500;
     padding: 8px 24px;
 }
 
 .footer-icon-airplane {
-    position: absolute;
-
     margin-left: 16px;
 
     fill: var(--color-white);
@@ -810,21 +809,9 @@ color: rgba(117, 117, 117, 0.5);
     background-color: var(--color-ocean);
     border-color: var(--color-ocean);
     background-size: 14px;
-}
-
-.modal-icon-check {
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    
-    fill: var(--color-white);
-}
-
-.modal-form-desc {
-    font-size: 13px;
-    user-select: none;
-    margin-bottom: 24px;
-
+    background-image: url(../img/check.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .modal-form-link {
